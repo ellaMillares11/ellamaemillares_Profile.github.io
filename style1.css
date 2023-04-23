@@ -1,0 +1,369 @@
+.container-fluid{
+    background-color: #3C5D75;
+    overflow: hidden;
+	position: fixed;
+    margin-bottom: 10px;
+    transition: top 0.2s;
+}
+#logo{
+    width: 80px;
+    height: auto;
+}
+.row{
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 5px;
+}
+.col-sm-8{
+    text-align: center;
+    padding-top: 5px;
+}
+.col-sm-2{
+    padding-top: 10px;
+    text-align: center;
+}
+.navlist{
+    list-style-type: none;
+    font-family: Verdana;
+    font-size: 16px;
+}
+.navItems{
+    display: inline-block;
+    padding: 10px 50px 5px 20px;
+}
+.navItems a{
+    text-decoration: none;  
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.navItems a:hover{
+    color: #F7CDD0;
+}
+#active{
+    color: #F7CDD0;
+}
+#navBut{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 20px;
+	border-radius: 4px;
+	padding: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border: 1px solid #FFFFFF;
+    width: 130px;
+    max-width: 100%;
+}
+#navBut:hover {
+	background-color: #F7CDD0;
+	color: #3C5D75;
+    border: transparent;
+}
+/*Start of content1*/
+.content1{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 80px;
+}
+#row2{
+    width: 100%;
+    background-image: url(images/Picture1.1.png);
+    background-repeat: no-repeat;
+    background-size: auto 99.5%;
+    background-position: center;
+    margin: 0.2px;
+}
+#co11{
+    text-align: center;
+    padding-left: 5px;
+    
+}
+#col2{
+    padding-right: 10px;
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 40px;
+    
+}
+#p1{
+	color: #3C5D75;
+	font-family: Verdana;
+	font-size: 2.8vw;
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+#p2{
+	color: #F7CDD0;
+	font-family: Verdana;
+	font-size: 4.2vw;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#p3{
+	color: #3C5D75;
+	font-family: Verdana;
+	font-size: 1.8vw;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.mypics{
+    width: 50%;
+    float: left;
+}
+.pic3{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    height: auto;
+	max-width: 100%;
+}
+#but1{
+	font-size: 1.6vw;
+	font-family: Verdana;
+	color: #FFFFFF;
+	padding: 10px 50px 10px 50px;
+	width: 150px;
+    max-width: 100%;
+	background-color: #3C5D75;
+	border: 1px solid #3C5D75;
+	border-radius: 6px;
+	margin-left: 60px;
+	cursor: pointer;
+	text-decoration: none;
+}
+#link1{
+	font-size: 1.6vw;
+	font-family: Verdana;
+	color: #F7CDD0;
+	margin-left: 80px;
+}
+#link1:hover{
+	color: #3C5D75;
+}
+.socials{
+	margin-top: 40px;
+	float: right;
+	margin-right: 120px;
+}
+.iconSocials{
+	width: 4vw;
+	height: auto;
+	margin-left: 15px;
+}
+.iconSocials:hover{
+	transform: translate(0, -10px);
+	transition: 0.2s;
+}
+#seperator1{
+    width: 100%;
+    height: 20px;
+    background-color: #F7CDD0;
+    float: right;
+}
+/*Start of content2*/
+.content2{
+    width: 100%;
+    max-width: 100%;
+}
+#row3{
+    width: 100%;
+    background-image: url(images/Picture1.2.png);
+    background-repeat: no-repeat;
+    background-size: auto 98.5%;
+    background-position: center;
+    margin: 0.2px;
+}
+.headText{
+	text-align: center;
+	font-family: Verdana;
+}
+#pHtext1{
+	font-size: 2vw;
+	color: #F7CDD0;
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+#pHtext2{
+	font-size: 2.4vw;
+	color: #3C5D75;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+#pHtext3{
+	font-size: 1.4vw;
+	color: #3C5D75;
+	margin-top: 10px;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 80px;
+    margin-bottom: 50px;
+}
+#box1{
+	width: 24vw;
+	height: 52vh;
+	background-color: #FFFFFF;
+	border: 2px solid #3C5D75;
+	border-radius: 8px;
+	margin-right: 70px;
+}
+#box2{
+	width: 24vw;
+	height: 52vh;
+	background-color: #FFFFFF;
+	border: 2px solid #3C5D75;
+	border-radius: 8px;
+	margin-right: 70px;
+}
+#box3{
+	width: 24vw;
+	height: 52vh;
+	background-color: #FFFFFF;
+	border: 2px solid #3C5D75;
+	border-radius: 8px;
+	margin-right: 70px;
+}
+.icon1{
+	width: 8vw;
+	height: auto;
+	margin: 20px auto 10px auto;
+	display: block;
+}
+.pIcon{
+	font-family: Verdana;
+	font-size: 1.8vw;
+	margin-top: 20px;
+	text-align: center;
+	color: #F7CDD0;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.pdescript{
+	font-size: 1.4vw;
+	font-family: Verdana;
+	text-align: justify;
+	margin: 0 20px 0 20px;
+	color: #3C5D75;
+}
+
+/*Start of content3*/
+.content3{
+	width: 100%;
+	height: 500px;
+    max-height: 100%;
+	max-width: 100%;
+	margin-top: 40px;
+	background-color: #F7CDD0;
+	border-radius: 10px;
+    background-image: url(images/Picture1.3.png);
+    background-repeat: no-repeat;
+    background-size: auto 98%;
+    background-position: center;
+    margin: 0.2px;
+}
+#headText1{
+    width: 100%;
+}
+#p4{
+	text-align: center;
+	font-size: 2vw;
+	color: #3C5D75;
+	text-decoration: underline;
+	padding-top: 50px;
+	font-family: Verdana;
+}
+#row4{
+    width: 100%;
+}
+#col3{
+    float: left;
+}
+#col4{
+    float: right;
+}
+#picID{
+	width: 70%;
+	height: auto;
+	float: left;
+	box-shadow: 8px 8px #3C5D75;
+	margin: 30px 0px 10px 60px;
+	max-width: 100%;
+}
+#p5{
+	text-indent: 50px;
+	font-family: Verdana;
+	font-size: 1.4vw;
+	color: #3C5D75;
+	text-align: justify;
+	float: right;
+	margin: 20px 50px 5px 5px;
+
+}
+.linktop{
+	color: #3C5D75;
+	font-size: 2vw;
+	font-family: Verdana;
+	text-align: center;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+.linktop a{
+	color: #3C5D75;
+}
+.linktop a:hover{
+	color: #F7CDD0;
+}
+/*Start of footer*/
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: #3C5D75;
+
+}
+#logo2{
+	height: auto;
+	width: 80px;
+	float: left;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#pfoot1{
+	float: right;
+    margin-right: 29%;
+	color: #FFFFFF;
+	font-size: 2.2vw;
+    margin-top: 20px;
+}
+.pfoot2{
+	color: #FFFFFF;
+	font-size: 1.2vw;
+	font-family: Verdana;
+	float: left;
+	margin: -10px 150px 0 150px;
+	text-align: center;
+}
+.socials1{
+	margin-top: 30px;
+	float: left;
+	margin-left: 41.5%;
+	transition: .6s;
+}
+.iconSocials:hover{
+	transform: translate(0, -10px);
+	transition: 0.2s;
+}
+#pcopy{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana;
+	text-align: center;
+	padding-top: 250px;
+}

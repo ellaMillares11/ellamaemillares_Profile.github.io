@@ -1,0 +1,136 @@
+.container2{
+	width: 100%;
+	height: auto;
+	background: #F2F2F2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contentProfile{
+	width: 95%;
+	height: auto;
+	margin: 5% auto 1% auto;
+	background-color: #FFFFFF;
+	box-shadow: 2px 0px 10px #888888;
+}
+.topHeader{
+	background-color: #F7CDD0;
+	width: 100%;
+	height: 250px;
+	background-image: url(images/Picture1.4.png);
+    background-repeat: no-repeat;
+    background-size: auto 91%;
+    background-position: center;
+}
+#topTxt1{
+	font-family: Verdana;
+	font-size: 4.5vw;
+	color: #3C5D75;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+}
+#side1{
+	margin-top: -200px;
+	float: left;
+	width: 50%;
+}
+.sideContent1{
+	margin: 10% 10% 5% 10%;
+	width: 80%;
+	height: auto;
+	background-color: #3C5D75;
+}
+#picID1{
+	width: 80%;
+	height: auto;
+	margin: 40px 50px 10px 50px;
+	max-width: 100%;
+}
+#table3{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+#tdata1_1{
+	color: #F7CDD0;
+	font-family: Verdana;
+	font-size: 2.2vw;
+	border-bottom: 2px solid #F7CDD0;
+}
+#tdata1_2{
+	color: #F7CDD0;
+	font-family: Verdana;
+	font-size: 1.4vw;
+	border-bottom: 2px solid #F7CDD0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#tdata1_3{
+	color: #F7CDD0;
+	font-family: Verdana;
+	font-size: 1.4vw;	
+	text-align: justify;
+	padding-top: 25px;
+	text-indent: 30px;
+	padding-bottom: 36px;
+}
+#side2{
+	float: right;
+	margin-top: -200px;
+	width: 50%;
+}
+#table1{
+	margin-top: 70px;
+	width: 90%;
+}
+#trow1{
+	background-color: #F7CDD0;
+}
+#tdata1{
+	font-family: Verdana;
+	font-size: 2.2vw;
+	font-weight: bold;
+	padding-left: 10px;
+	color: #3C5D75;
+}
+#tdata2{
+	font-family: Verdana;
+	font-size: 1.4vw;
+	padding: 20px 10px 10px 10px;	
+	color: #3C5D75;
+}
+#table2{
+	margin-top: 20px;
+	width: 90%;
+	margin-bottom: 8px;
+}
+#table4{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#tdataimg{
+	width: 30%;
+}
+#imgBSIT{
+	width: 70%;
+	height: auto;
+	max-width: 100%;
+	margin-left: 60px;
+}
+#pBSIT{
+	width: 60%;
+	color: #3C5D75;
+	font-family: Verdana;
+	font-size: 1.4vw;	
+	text-align: justify;
+	text-indent: 30px;
+	padding: 20px;
+}
+.conEnd{
+	background-color: #F7CDD0;
+	width: 100%;
+	height: 40px;
+	margin-top: 47px;
+}
