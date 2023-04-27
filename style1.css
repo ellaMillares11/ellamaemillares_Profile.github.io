@@ -1,4 +1,4 @@
-.container-fluid{
+#navigation{
     background-color: #3C5D75;
     overflow: hidden;
 	position: fixed;
@@ -172,7 +172,7 @@
     width: 100%;
     background-image: url(images/Picture1.2.png);
     background-repeat: no-repeat;
-    background-size: auto 98.5%;
+    background-size: auto 95%;
     background-position: center;
     margin: 0.2px;
 }
@@ -265,7 +265,7 @@
 	border-radius: 10px;
     background-image: url(images/Picture1.3.png);
     background-repeat: no-repeat;
-    background-size: auto 98%;
+    background-size: auto 97.5%;
     background-position: center;
     margin: 0.2px;
 }
