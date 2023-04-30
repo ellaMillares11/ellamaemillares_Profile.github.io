@@ -30,10 +30,54 @@
                     <div class="headText1">
                         <p id="pHtextA">MY WORKS</p>
                         <p id="pHtextB">Portfolio</p>
-                        <p id="pHtextC">This are some of my recent projects being an IT Student.</p>
+                        <p id="pHtextC">These are some of my recent projects being an IT Student.</p>
                     </div>
                 </div>
                 <div class="PortfolioContent">
+                    <div class="flex-container" id="flContainer2">
+                        <div id="box1_1">
+                            <img id="calc" src="images/Calc.PNG">
+                            <div id="dscrpt1">
+                                This is my first calculator that I <br>
+                                program using Java language. <br>It can calculate
+                                simple math operations.  <br><br>
+                                <a id="but2" href="#">See More</a>
+                            </div>
+                        </div>
+        
+                        <div id="box2_2"> 
+                            <img id="invent" src="images/inventory.png">
+                            <div id="dscrpt1">
+                                This is my first calculator that I <br>
+                                program using Java language. <br>It can calculate
+                                simple math operations.  <br><br>
+                                <a id="but2" href="#">See More</a>
+                            </div>
+                        </div>
+    
+                </div>
+
+                <div class="flex-container" id="flContainer3">
+                    <div id="box1_3">
+                        <img id="web1" src="images/web1_1.jpeg">
+                            <div id="dscrpt1">
+                                This is my first business website <br>
+                                using html and CSS. <br>It is an example
+                                of web for business.  <br><br>
+                                <a id="but2" href="#">See More</a>
+                            </div>
+                    </div>
+                    <div id="box2_4"> 
+                        <img id="weApp" src="images/Weather App .png">
+                        <div id="dscrpt1">
+                            This is my first prototype in <br>
+                            making design for app. The app<br> shows
+                            the weather forecast in a week.  <br><br>
+                            <a id="but2" href="#">See More</a>
+                        </div>
+                    </div>
+
+            </div>
 
             </div>
             
@@ -57,7 +101,18 @@
        <p id="pcopy">&#169 2023 Copyright. All rights reserved</p>
 </div>
 
-<script src="ProfileJS.js"> </script>
+<script>
+    	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+		    document.getElementById("navigation").style.top = "0";
+		  } else {
+		    document.getElementById("navigation").style.top = "-200px";
+		  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
 </body>
 </html>

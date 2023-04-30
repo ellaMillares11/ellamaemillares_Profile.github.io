@@ -172,7 +172,7 @@
     width: 100%;
     background-image: url(images/Picture1.2.png);
     background-repeat: no-repeat;
-    background-size: auto 95%;
+    background-size: auto 98.5%;
     background-position: center;
     margin: 0.2px;
 }
@@ -200,7 +200,7 @@
 	margin-top: 10px;
 }
 
-.flex-container{
+#flContainer1{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
