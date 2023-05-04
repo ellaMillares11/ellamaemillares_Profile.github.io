@@ -1,0 +1,84 @@
+.container3{
+	width: 100%;
+	height:auto;
+	background: #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.contentBlog{
+	width: 95%;
+	height: 750px;
+	margin: 2% auto 1% auto;
+	background-color: #FFFFFF;
+	box-shadow: 2px 0px 10px #888888;
+}
+#my_story{
+    width: 95%;
+    height: auto;
+    margin:  4% 2% 2% 2%;
+}
+#blog1_side1{
+    float: left;
+}
+#blog1_side2{
+    float: right;
+    padding: 30px;
+}
+#p1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2.2vw;
+    color: #3C5D75;
+    font-weight: bold;
+}
+#p2{
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 1.2vw;
+    color: #3C5D75; 
+    text-indent: 50px;  
+}
+.backHome{
+	color: #3C5D75;
+	font-size: 3vw;
+	font-family: Verdana;
+	text-align: center;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.backHome a{
+	color: #3C5D75;
+}
+.backHome a:hover{
+	color: #F7CDD0;
+}
+.contentBlog1{
+	width: 95%;
+	height: auto;
+	margin: 2% auto 1% auto;
+	background-color: #FFFFFF;
+	box-shadow: 2px 0px 10px #888888;
+    padding-bottom: 50px;
+}
+#chatgpt{
+    width: 36vw;
+    height: auto;
+    margin: 70px 30px 10px 50px;
+    float: left;
+}
+#p2_2{
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 1.2vw;
+    color: #3C5D75; 
+    text-indent: 50px; 
+    margin: 20px 50px 0px 50px;
+}
+#p1_2{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2.2vw;
+    color: #3C5D75;
+    font-weight: bold;
+    padding-top: 50px;
+}
