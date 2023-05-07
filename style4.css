@@ -4,10 +4,16 @@
     background-color: #F7CDD0;
 	  margin-top: 80px;
     padding-top: 25px;
+    padding-bottom: 40px;
 }
 .slideshow-container {
     position: relative;
     background: #F2F2F2;
+    background-image: url(images/Picture1.7.png);
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    background-position: center;
+    margin: 0.2px;
   }
   .mySlides {
     display: none;

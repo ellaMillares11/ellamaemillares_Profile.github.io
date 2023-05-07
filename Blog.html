@@ -74,7 +74,7 @@
                 <a class="next" onclick="plusSlides(1)">❯</a>
                 
                 </div>
-                    <img id="img7" src="images/Picture1.7.png">
+                    <!--<img id="img7" src="images/Picture1.7.png">-->
         </div>
         <div class="BlogContent">
             <div id="blogHeadText">"MY ARTICLES"</div>
@@ -131,38 +131,38 @@
 </div>
 
 <script>
-    var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navigation").style.top = "0";
-      } else {
-        document.getElementById("navigation").style.top = "-200px";
-      }
-prevScrollpos = currentScrollPos;
-}
+                          var prevScrollpos = window.pageYOffset;
+                      window.onscroll = function() {
+                      var currentScrollPos = window.pageYOffset;
+                            if (prevScrollpos > currentScrollPos) {
+                              document.getElementById("navigation").style.top = "0";
+                            } else {
+                              document.getElementById("navigation").style.top = "-200px";
+                            }
+                      prevScrollpos = currentScrollPos;
+                      }
 
-var slideIndex = 1;
-showSlides(slideIndex);
+                      var slideIndex = 1;
+                      showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+                      function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                      }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+                      function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                      }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
-}
+                      function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        if (n > slides.length) {slideIndex = 1}    
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                        }
+                        slides[slideIndex-1].style.display = "block";  
+                      }
 
 </script>
 
