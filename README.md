@@ -1,6 +1,6 @@
 2nd Year BS Information Technology - Block C
 Ella Mae R. Millares
-youtube video link: https://youtu.be/25yBa7PDrLw
+Youtube video link: https://youtu.be/25yBa7PDrLw
 
 
 This is my Final project for Web Systems and technologies, my own profile website.
