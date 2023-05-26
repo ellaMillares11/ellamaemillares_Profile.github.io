@@ -8,4 +8,4 @@ It Includes files such as html, css, JavaScript and images.
 I uploaded all my files on master branch.
 Thank you..
 
-Vissit my site with this link: https://ellamillares11.github.io/ellamaemillares_Profile.github.io/
+Visit my site with this link: https://ellamillares11.github.io/ellamaemillares_Profile.github.io/
